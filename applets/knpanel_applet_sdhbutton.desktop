@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=SDH Button
+Comment=Show desktop hide button
+X-KDE-ServiceTypes=KNPanelApplet
+X-KDE-Library=knpanel_applet_sdhbutton
+X-KDE-Priority=1

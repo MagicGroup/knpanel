@@ -1,0 +1,42 @@
+
+set(knpanel_applet_kbutton_SRCS knpanel_applet_kbutton.cpp )
+kde4_add_plugin(knpanel_applet_kbutton ${knpanel_applet_kbutton_SRCS})
+target_link_libraries(knpanel_applet_kbutton knpanel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} kworkspace kio)
+install(TARGETS knpanel_applet_kbutton DESTINATION ${PLUGIN_INSTALL_DIR})
+install(FILES knpanel_applet_kbutton.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+
+set(knpanel_applet_mnpager_SRCS knpanel_applet_mnpager.cpp)
+kde4_add_plugin(knpanel_applet_mnpager ${knpanel_applet_mnpager_SRCS})
+target_link_libraries(knpanel_applet_mnpager knpanel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} X11)
+install(TARGETS knpanel_applet_mnpager DESTINATION ${PLUGIN_INSTALL_DIR})
+install(FILES knpanel_applet_mnpager.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+
+set(knpanel_applet_sctasks_SRCS knpanel_applet_sctasks.cpp)
+kde4_add_plugin(knpanel_applet_sctasks ${knpanel_applet_sctasks_SRCS})
+target_link_libraries(knpanel_applet_sctasks knpanel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} taskmanager)
+install(TARGETS knpanel_applet_sctasks DESTINATION ${PLUGIN_INSTALL_DIR})
+install(FILES knpanel_applet_sctasks.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+
+set(knpanel_applet_sstray_SRCS knpanel_applet_sstray.cpp)
+kde4_add_plugin(knpanel_applet_sstray ${knpanel_applet_sstray_SRCS})
+target_link_libraries(knpanel_applet_sstray knpanel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} X11)
+install(TARGETS knpanel_applet_sstray DESTINATION ${PLUGIN_INSTALL_DIR})
+install(FILES knpanel_applet_sstray.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+
+set(knpanel_applet_dclock_SRCS knpanel_applet_dclock.cpp)
+kde4_add_plugin(knpanel_applet_dclock ${knpanel_applet_dclock_SRCS})
+target_link_libraries(knpanel_applet_dclock knpanel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS})
+install(TARGETS knpanel_applet_dclock DESTINATION ${PLUGIN_INSTALL_DIR})
+install(FILES knpanel_applet_dclock.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+
+set(knpanel_applet_sdhbutton_SRCS knpanel_applet_sdhbutton.cpp)
+kde4_add_plugin(knpanel_applet_sdhbutton ${knpanel_applet_sdhbutton_SRCS})
+target_link_libraries(knpanel_applet_sdhbutton knpanel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS})
+install(TARGETS knpanel_applet_sdhbutton DESTINATION ${PLUGIN_INSTALL_DIR})
+install(FILES knpanel_applet_sdhbutton.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+
+set(knpanel_applet_trash_SRCS knpanel_applet_trash.cpp)
+kde4_add_plugin(knpanel_applet_trash ${knpanel_applet_trash_SRCS})
+target_link_libraries(knpanel_applet_trash knpanel ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS})
+install(TARGETS knpanel_applet_trash DESTINATION ${PLUGIN_INSTALL_DIR})
+install(FILES knpanel_applet_trash.desktop DESTINATION ${SERVICES_INSTALL_DIR})

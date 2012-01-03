@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=Simple system tray
+Comment=A simple system tray
+X-KDE-ServiceTypes=KNPanelApplet
+X-KDE-Library=knpanel_applet_sstray
+X-KDE-Priority=1

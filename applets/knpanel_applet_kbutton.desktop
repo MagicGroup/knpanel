@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=K Menu
+Comment=K menu button
+X-KDE-ServiceTypes=KNPanelApplet
+X-KDE-Library=knpanel_applet_kbutton
+X-KDE-Priority=1

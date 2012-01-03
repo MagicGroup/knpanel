@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=Mini Pager
+Comment=A mini pager
+X-KDE-ServiceTypes=KNPanelApplet
+X-KDE-Library=knpanel_applet_mnpager
+X-KDE-Priority=1

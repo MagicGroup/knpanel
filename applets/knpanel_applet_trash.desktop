@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=Trash Bin
+Comment=A simple trash bin
+X-KDE-ServiceTypes=KNPanelApplet
+X-KDE-Library=knpanel_applet_trash
+X-KDE-Priority=1

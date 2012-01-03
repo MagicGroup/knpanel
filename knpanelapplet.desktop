@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=ServiceType
+X-KDE-ServiceType=KNPanelApplet
+Comment=KNPnael applet
+# Priority of the plugin. 0 - disabled
+[PropertyDef::X-KDE-Priority]
+Type=int

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=Digital Clock
+Comment=A digital clock applet
+X-KDE-ServiceTypes=KNPanelApplet
+X-KDE-Library=knpanel_applet_dclock
+X-KDE-Priority=1

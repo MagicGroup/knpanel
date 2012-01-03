@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=SC Tasks
+Comment=SC task manager
+X-KDE-ServiceTypes=KNPanelApplet
+X-KDE-Library=knpanel_applet_sctasks
+X-KDE-Priority=1
