@@ -33,7 +33,7 @@ set(knpanel_bin_SRCS
 )
 
 kde4_add_executable(knpanel_bin ${knpanel_bin_SRCS})
-target_link_libraries(knpanel_bin ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} knpanel krootpixmap)
+target_link_libraries(knpanel_bin ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} knpanel)
 set_target_properties(knpanel_bin PROPERTIES OUTPUT_NAME knpanel)
 install(TARGETS knpanel_bin ${INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES knpanelapplet.desktop DESTINATION ${SERVICETYPES_INSTALL_DIR})

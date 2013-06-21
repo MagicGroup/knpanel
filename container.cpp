@@ -15,8 +15,6 @@
 
 #include <QDebug>
 
-#include <krootpixmap/krootpixmap.h>
-
 #include "applet.h"
 #include "event.h"
 #include "nlayout.h"
@@ -159,7 +157,7 @@ void Container::init()
     connect( QApplication::desktop(), SIGNAL(resized(int)), this, SLOT(slotScreenResized()) );
 
     /// krootpixmap
-    new KRootPixmap( this, this );
+    //new KRootPixmap( this, this );
 }
 
 void Container::slotScreenResized()
