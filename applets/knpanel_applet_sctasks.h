@@ -10,7 +10,7 @@
 
 #include "applet.h"
 
-using TaskManager::TaskPtr;
+//using TaskManager::TaskPtr;
 using TaskManager::AbstractGroupableItem;
 
 class QContextMenuEvent;
